@@ -3,17 +3,15 @@
     margin:0;
 }
 .general-div{
-width: 100%;
+    width: 100%;
 }
 .nav-container{
     width:100%;
-    
     position: fixed;
-    background: blue;
 }
 .nav-container__item{
     height: 4rem;
-    background-color: black; 
+    background-color: #fabfab; 
     display: flex;
     justify-content: flex-end;
     
