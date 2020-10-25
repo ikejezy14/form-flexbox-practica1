@@ -1,0 +1,149 @@
+*{
+    padding:0;
+    margin:0;
+}
+.form-container{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div .form-container__first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+    
+
+}
+.form-container__item{
+    order:1;
+    margin-top: 150px;
+}
+.form-container__input{
+    width: 100%;
+    padding: 8px 0px;
+    margin:3px;
+    border:none;
+    outline: none;
+    border-bottom: 3px solid black;
+    transition:all 0.5s;
+    
+    
+    
+}
+
+.form-container__input:focus{
+    width: 100%;
+    padding: 8px;
+    margin:3px;
+    border:none;
+    outline: none;
+    border-bottom: 3px solid gray;
+    
+    
+}
+
+.form-container__input::placeholder{
+   text-transform: uppercase;
+   font-weight: bold;
+   color:black;
+  
+   
+    
+}
+.a{
+    display: flex;
+    justify-content: center;
+    
+}
+button[type="submit"]{
+    width: 100%;
+    padding: 8px;
+    margin:3px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border:none;
+    cursor: pointer;    
+}
+button[type="submit"]:hover{
+    
+    padding: 8px;
+    background-color: rgb(19, 18, 18);
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border:none;
+    outline:none;
+}
+
+textarea{
+    height: 150px;
+    resize: none;
+    
+}
+
+.form-container__a{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-container__a a{
+    text-decoration: none;
+}
+
+.form-container__a a:hover{
+    text-decoration: underline;
+}
+
+.form-container__a a:visited{
+   color:rgba(161, 33, 161, 0.856);
+}
+
+.form-container__a a:link{
+    color:blue;
+ }
+.img-container{
+    min-width: 200px;
+}
+.img-container img{
+    width: 300px;
+}
+
+.form-container__connect-with{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:20px;
+}
+.divider{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.divider h3{
+
+}
+
+.form-container__connect-with a img{
+    max-width: 50px;
+    
+}
+
+@media (max-width: 576px) { 
+    .img-container{
+        margin-top:150px;
+    }
+
+    .form-container__item{
+        margin-top:0;
+    }
+
+    .form-container__connect-with a img{
+        margin-bottom: 20px;
+    }
+ }
